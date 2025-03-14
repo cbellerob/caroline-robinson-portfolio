@@ -699,39 +699,46 @@ html, body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;  
-    flex-wrap: wrap;
     
     gap: 40px;
     padding: 10px; 
     margin-top: 20px;   
 }
 
-.ios_pdf-viewer {
-    border: none;
+.iOS_disp video{
+    height: 300px;
+    width: 500px;
 }
 
+.ios_pdf {
+    border: none;
+    height: 340px;
+    width: 500px;
+}
+
+
 @media (max-width: 768px) {
-    .ios_pdf-viewer {
-        width: 90%;
-        height: 300px;
+    .ios_pdf {
+        height: 70%; 
+        width: 70%; 
     }
 
-    .video-container {
-        width: 90%;
-        height: 300px;
+    .iOS_disp video {
+        height: 70%; 
+        width: 70%; 
     }
 
 }
 
 @media (max-width: 480px) {
-    .ios_pdf-viewer {
-        width: 80%; 
-        height: 250px; 
+    .ios_pdf {
+        height: 50%; 
+        width: 50%; 
     }
 
-    .video-container {
-        width: 70%; 
-        height: 200px; 
+    .iOS_disp video {
+        height: 50%; 
+        width: 50%; 
     }
 }
 
